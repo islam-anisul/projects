@@ -1,0 +1,190 @@
+/* extra small device */
+@media (min-width: 320px) and (max-width: 575.98px){
+    #banner {
+        padding: 150px 0px;
+    }
+    #banner .banner_cont .banner_item h1 {
+        font-size: 24px;
+    }
+    #banner .banner_cont .banner_item .contact_btn {
+        padding: 6px 25px;
+    }
+    #about {
+        padding: 100px 0;
+    }
+    #about .about_right h2 {
+        font-size: 24px;
+    }
+    #about .about_right {
+        padding-top: 35px;
+    }
+    #service .service_cont .service_item .icon {
+        padding: 10px 13px;
+    }
+    #service .service_cont .service_item .icon img{
+        height: 20px;
+    }
+    #service .service_cont .service_item {
+        gap: 20px;  
+        justify-content: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    #service .service_cont .service_item .txt p {
+        margin-top: 5px;
+    }
+    #service {
+        padding-bottom: 85px;
+    }
+    #work .work_cont .work_item {
+        flex-basis: 100%;
+    }
+    #blog {
+        padding: 85px 0;
+    }
+    #blog .blog_cont .blog_item {
+        flex-basis: 100%;
+    }
+    #blog .blog_cont .blog_item h4 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #blog .blog_cont .blog_item p {
+        margin: 10px 0;
+    }
+    #join .join_item h3 {
+        font-size: 20px;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .left_item {
+        padding-left: 0;
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    #footer .left_item::after {
+        height: 1px;
+        width: 100%;
+        right: 0;
+        top: 129%;
+    }
+}
+
+
+/* small device */
+@media(min-width: 576px) and (max-width: 767.98px){
+    #banner {
+        padding: 150px 0px;
+    }
+    #banner .banner_cont .banner_item h1 {
+        font-size: 31px;
+    }
+    #about {
+        padding: 120px 0;
+    }
+    #about .about_right {
+        padding-top: 40px;
+    }
+    #service .service_cont .service_item {
+        padding: 27px 35px;
+        text-align: center;
+        justify-content: center;
+    }
+    #service {
+        padding-bottom: 100px;
+    }
+    #work .work_cont .work_item {
+        flex-basis: 45%;
+    }
+    #blog {
+        padding: 100px 0;
+    }
+    #blog .blog_cont .blog_item {
+        flex-basis: 45%;
+    }
+    #blog .blog_cont .blog_item h4 {
+        font-size: 16px;
+    }
+    #blog .blog_cont .blog_item p {
+        font-size: 13px;
+    }
+    #footer .left_item {
+        padding-left: 0;
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    #footer .left_item::after {
+        height: 1px;
+        width: 100%;
+        right: 0;
+        top: 129%;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+}
+
+
+/* medium device */
+@media(min-width:768px) and (max-width: 991.98px){
+    #banner {
+        padding: 180px 0px;
+    }
+    #banner .banner_cont .banner_item h1 {
+        font-size: 36px;
+    }
+    #about {
+        padding: 125px 0;
+    }
+    #about .about_right {
+        padding-top: 0;
+    }
+    #about .about_right p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    #about .about_right .custom_btn {
+        margin-top: 17px;
+    }
+    #service .service_cont .service_item {
+        padding: 27px 35px;
+        text-align: center;
+        justify-content: center;
+    }
+    #service {
+        padding-bottom: 100px;
+    }
+    #work .work_cont .work_item {       
+        flex-basis: 45%;
+    }
+    #blog .blog_cont .blog_item {
+        flex-basis: 45%;
+    }
+    #blog .blog_cont .blog_item p {
+        font-size: 13px;
+    }
+    #footer .left_item {
+        padding-left: 0;
+    }
+}
+
+
+/* large device */
+@media (min-width: 992px) and (max-width: 1399.98px){
+    #service .service_cont .service_item {
+        padding: 24px 43px;
+    }
+    #blog .blog_cont .blog_item p {
+        font-size: 13px;
+    }
+    #footer .left_item {
+        padding-left: 169px;
+    }
+}
+
+@media (max-width: 992px){
+    .title {
+        font-size: 28px;
+    }
+}

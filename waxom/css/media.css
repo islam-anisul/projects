@@ -1,0 +1,370 @@
+/* extra small device */
+@media (min-width: 320px) and (max-width: 575.98px){
+#hero .overlay .hero_slider .slider_cont .slider_item h3 {
+	font-size: 21px;
+}
+#hero .overlay .hero_slider .slider_cont .slider_item h1 {
+	font-size: 28px;
+}
+#hero .overlay .hero_slider .slider_cont .slider_item p {
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+	padding: 0 10px;
+}
+.custom_btn {
+	padding: 10px 25px;
+}
+#hero .slick-dots {
+	bottom: -110px;
+}
+.service-2,.service-3,.service-4{
+    margin-top: 40px;
+}
+#service .service_item::after {
+	bottom: -13px;
+}
+#service .service_item img{
+    height: 30px;
+}
+#idea .broser_img .top_img img {
+	bottom: -1px;
+}
+#purchase .purchse_item .purchase_txt h3 {
+	font-size: 17px;
+}
+#purchase .purchse_item .purchase_txt p {
+	font-size: 12px;
+}
+#purchase .purchse_item .purchase_btn button {
+	padding: 9px 19px;
+	margin-top: 20px;
+}
+#portfolio .portfolio_content .filter_btn button {
+	padding: 5px 13px;
+}
+#portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt {
+	padding: 20px 7px;
+}
+#portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt h4 {
+	font-size: 11px;
+}
+#portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt p {
+	font-size: 14px;
+}
+#portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+}
+.player img{
+    height: 30px;
+}
+#video .overlay .video_cont .txt h5 {
+	font-size: 22px;
+	margin-top: 16px;
+}
+#video .overlay .video_cont .txt p {
+	font-size: 14px;
+}
+#video .overlay .video_cont .txt h6 {
+	margin-top: 20px;
+}
+#mobile .service_txt h4 {
+	font-size: 23px;
+}
+#mobile .service_txt p {
+	font-size: 14px;
+}
+#mobile .service_txt ul {
+	padding-left: 0;
+	margin-top: 20px;
+}
+#mobile .service_txt ul li {
+	font-size: 13px;
+	margin-top: 13px;
+}
+#mobile .service_txt {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+#counter .counter_cont{
+    gap: 33px;
+}
+#counter .counter_cont .counter_item {
+	width: 45%;
+}
+#counter .counter_cont .counter_item h4 {
+	font-size: 24px;
+}
+#counter .counter_cont .counter_item p {
+	font-size: 13px;
+}
+#counter .counter_cont .counter_item img {
+	height: 30px;
+}
+#counter .counter_cont .counter_item::after {
+	bottom: -6px;
+}
+#counter .counter_cont .counter_item h4 {
+	margin-top: 5px;
+}
+#partners .overlay .partner_cont img {
+	max-width: 138px;
+}
+.footer_logo img{
+    height: 30px;
+}
+#coyright .left_cont a {
+	padding: 0 6px;
+	position: relative;
+}
+#coyright .left_cont p, #coyright .left_cont a {
+	font-size: 10px;
+}
+#coyright .right_cont p {
+	font-size: 12px;
+}
+#coyright .right_cont {
+	gap: 10px;
+	margin-top: 10px;
+}
+}
+
+/* small device */
+@media(min-width: 576px) and (max-width: 767.98px){
+    #hero .overlay .hero_slider .slider_cont .slider_item h3 {
+        font-size: 24px;        
+    }
+    #hero .overlay .hero_slider .slider_cont .slider_item h1 {
+        font-size: 36px;
+    }
+    #service .service_item::after {
+        bottom: -14px;
+    }
+    .service-2,.service-3,.service-4{
+        margin-top: 40px;
+    }
+    #service .service_item h3 {
+        margin-top: 10px;
+    }
+    #purchase .purchse_item .purchase_txt h3 {
+        font-size: 21px;
+    }
+    #purchase .purchse_item .purchase_txt p {
+        font-size: 15px;
+    }
+    #purchase .purchse_item {        
+        gap: 30px;
+    }
+    #portfolio .portfolio_content .filter_btn button {
+        padding: 3px 11px;
+        font-size: 13px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item {
+        flex-basis: 45%;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt h4 {
+        font-size: 14px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt p {
+        font-size: 13px;
+    }
+    .player img{
+        height: 30px;
+    }
+    #video .overlay .video_cont .txt h5 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #video .overlay .video_cont .txt p {
+        font-size: 14px;
+    }
+    #mobile .service_txt h4 {
+        font-size: 24px;
+    }
+    #mobile .service_txt p {
+        font-size: 14px;
+    }
+    #mobile .service_txt {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #counter .counter_cont .counter_item img {
+        height: 25px;
+    }
+    #counter .counter_cont .counter_item h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #counter .counter_cont .counter_item p {
+        font-size: 12px;
+    }
+    .post_item .img img{
+        width: 100% !important;
+    }
+    #partners .overlay .partner_cont {
+        gap: 55px;
+    }
+    #partners .overlay .partner_cont img {
+        max-width: 125px;
+    }
+    .footer_logo img{
+        height: 40px;
+    }
+    #coyright .right_cont {
+        margin-top: 15px;
+    }
+}
+
+
+/* medium device */
+@media(min-width:768px) and (max-width: 991.98px){
+    #hero .overlay .hero_slider .slider_cont .slider_item h3 {
+        font-size: 28px;
+    }
+    #hero .overlay .hero_slider .slider_cont .slider_item h1 {
+        font-size: 36px;
+    }
+    .service-3,.service-4{
+        margin-top: 40px;
+    }
+    #service .service_item::after {
+        bottom: -11px;
+    }
+    #purchase .purchse_item .purchase_txt h3 {
+        font-size: 21px;
+    }
+    #purchase .purchse_item .purchase_txt p {
+        font-size: 14px;
+    }
+    #portfolio .portfolio_content .filter_btn button {
+        padding: 7px 14px;
+        font-size: 13px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item {
+        flex-basis: 45%;
+    }
+    .player img{
+        height: 35px;
+    }
+    #mobile .service_txt {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #counter .counter_cont .counter_item img {
+        height: 35px;
+    }
+    #counter .counter_cont .counter_item h4 {
+        font-size: 21px;
+    }
+    .post_item.slick-slide .img img {
+        width: 100%;
+    }
+    #partners .overlay .partner_cont img {
+        max-width: 100px;
+    }
+    .footer_logo img{
+        height: 40px;
+    }
+    #coyright .left_cont,#coyright .right_cont {
+        justify-content: center;
+    }
+    #coyright .right_cont {
+        margin-top: 15px;
+    }
+}
+
+/* large device */
+@media (min-width: 992px) and (max-width: 1399.98px){
+    #topbar .navbar form.form-inline .cart {
+        margin-right: 20px;
+    }
+    #hero .overlay .hero_slider .slider_cont .slider_item h3 {
+        font-size: 21px;
+    }
+    #hero .overlay .hero_slider .slider_cont .slider_item h1 {
+        font-size: 37px;
+    }
+    #hero .overlay .hero_slider .slider_cont .slider_item p {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .service_item img{
+        height: 35px;
+    }
+    #service .service_item h3 {
+        font-size: 18px;
+    }
+    #service .service_item p {
+        font-size: 12px;
+    }
+    #portfolio .portfolio_content .filter_btn button {
+        padding: 8px 17px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt h4 {
+        font-size: 16px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt {
+        padding: 20px;
+    }
+    #portfolio .portfolio_content .portfolio_item_wrapper .portfolio_item .port_txt p {
+        font-size: 14px;
+    }
+    .player img{
+        height: 35px;
+    }
+    #counter .counter_cont .counter_item img {
+        height: 35px;
+    }
+    #counter .counter_cont .counter_item h4 {
+        font-size: 24px;
+    }
+    #post .post_cont .post_item .article h3 {
+        font-size: 15px;
+    }
+    #post .post_cont .post_item .article {
+        padding: 20px;
+    }
+    #partners .overlay .partner_cont img {
+        max-width: 100px;
+    }
+    .footer_logo img{
+        height: 35px;
+    }
+}
+
+
+@media(max-width: 991.98px){
+    .sec_title h3 {
+        font-size: 24px;
+    }
+    .sec_title p{
+        font-size: 14px !important;
+    }
+    #topbar{
+        background: rgba(0, 0, 0, 0.9);
+    }
+    #topbar .navbar .navbar-brand img {
+        max-height: 28px;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+    }
+.nav-item{
+    margin-top: 10px;
+}
+#topbar .navbar .nav-item .nav-link {
+	font-size: 15px;
+	margin-left: 0;
+}
+#topbar .navbar form.form-inline .cart {
+	margin-right: 19px;
+}
+.custom_btn {
+	padding: 8px 15px !important;
+}
+p{
+    font-size: 14px !important;
+}
+
+}

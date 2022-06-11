@@ -1,0 +1,187 @@
+/* extra small device */
+@media (min-width: 320px) and (max-width: 575.98px){
+    #topbar {
+        top: 0px;
+        background: #000;
+    }
+    #topbar .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0px;        
+    }
+    #topbar .navbar-expand-lg .navbar-nav .nav-item span.activity_dot {
+        left: 15%;
+    }
+    #topbar .navbar-brand img,#topbar.sticky .navbar-brand img {
+        max-height: 43px;
+    }
+    #banner .banner_slider .slider_cont .slider_item h1 {
+        font-size: 28px;
+    }
+    #banner .banner_slider .slider_cont .slider_item p {
+        font-size: 12px;
+    }
+    .custom_btn {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    #about .about_content .about_left {
+        padding: 90px 137px;
+    }
+    #about .about_content .about_left a.venobox i.fa {
+        font-size: 50px;
+    }
+    .about_content{
+        margin-top: 60px;
+    }
+    #service .service_wrapper .service_cont.service2,#service .service_wrapper .service_cont.service3 {
+        margin-top: 30px;
+    }
+    .counter_cont {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .portoflio-2,.portoflio-3,.portoflio-4,.portoflio-5,.portoflio-6{
+        margin-top: 30px;
+    }
+    .team-2,.team-3{
+        margin-top: 30px;
+    }
+    #faq .faq_content #accordion1{
+        margin-top: 30px;
+    }
+    #faq .faq_content #accordion .btn, #faq .faq_content #accordion1 .btn,#faq .faq_content #accordion .btn span i, #faq .faq_content #accordion1 .btn span i {
+        font-size: 15px;
+    }
+    #faq .faq_content #accordion .card .card-body, #faq .faq_content #accordion1 .card .card-body {
+        padding: 15px;
+    }
+    #pricing .slick-slide img {
+        margin: 0 auto;
+    }
+    #pricing .preBTN {
+        left: 0;        
+    }
+    #pricing .preBTN img{
+        height: 25px;
+    }
+    #pricing .plan{
+        margin-top: 30px;
+    }
+    #footer .footer_logo a img {
+        height: 50px;
+        width: auto;
+    }
+    #footer .footer_social a {
+        margin-right: 15px;
+    }
+    #footer .footer_cont .footer_item {
+        padding-right: 0;
+    }
+}
+
+/* small device */
+@media(min-width: 576px) and (max-width: 767.98px){
+    #topbar .navbar-brand img {
+        max-height: 55px;
+        max-width: 60px;
+    }
+    #topbar .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0px;        
+    }
+    #banner .banner_slider .slider_cont .slider_item h1 {
+        font-size: 36px;
+    }
+    #banner .banner_slider .slider_cont .slider_item p {
+        font-size: 14px
+    }
+    .about_content{
+        margin-top: 50px;
+    }
+    #service .service_wrapper .service_cont.service2,#service .service_wrapper .service_cont.service3 {
+        margin-top: 30px;
+    }
+    .counter_cont{
+        gap: 30px;
+    }
+    .portoflio-2,.portoflio-3,.portoflio-4,.portoflio-5,.portoflio-6{
+        margin-top: 30px;
+    }
+    .team-3{
+        margin-top: 30px;
+    }
+    #faq .faq_content #accordion1{
+        margin-top: 30px;
+    }
+    #faq .faq_content #accordion .btn, #faq .faq_content #accordion1 .btn {
+        font-size: 19px;
+    }
+    .pricing_slide_cont .slick-slide img {
+        display: block;
+        margin: 0 auto !important;
+    }
+    #pricing .preBTN {
+        left: -11px;
+    }
+    #pricing .preBTN img{
+        height: 30px;
+        width: auto;
+    }
+    #footer .footer_cont .footer_item p, #footer .footer_cont .footer_item a {
+        font-size: 14px;
+    }
+    #footer .footer_logo a img {
+        height: 50px;
+        width: 59px;
+    }
+    #footer .footer_social a {
+        margin-right: 18px;
+    }
+}
+
+/* medium device */
+@media(min-width:768px) and (max-width: 991.98px){
+    #topbar .navbar-brand img {
+        max-height: 55px;
+        max-width: 70px;
+    }
+    #topbar .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0px;        
+    }
+    #banner .banner_slider .slider_cont .slider_item h1 {
+        font-size: 36px;
+    }
+    .about_content{
+        margin-top: 50px;
+    }
+    .service3{
+        margin-top: 30px;
+    }
+    .counter_cont {
+        gap: 30px;
+    }
+    .portoflio-3,.portoflio-4,.portoflio-5,.portoflio-6{
+        margin-top: 30px;
+    }
+    #team .team_content .team_item .member .details .social .links a {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    #faq .faq_content #accordion .btn, #faq .faq_content #accordion1 .btn {
+        font-size: 15px;
+    }
+    #faq .faq_content #accordion .btn span i, #faq .faq_content #accordion1 .btn span i {
+        font-size: 14px;
+    }
+    .pricing_slide .slick-slide img {
+        display: block;
+        margin: 0 auto !important;
+    }
+}
+
+/* large device */
+@media (min-width: 992px) and (max-width: 1399.98px){
+    .pricing_slide_cont .slick-slide img {
+        display: block;
+        margin: 0 auto;
+    }
+}

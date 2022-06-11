@@ -1,0 +1,164 @@
+@media (min-width: 320px) and (max-width: 575.98px){
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+    #banner::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: hsla(0, 0%, 0%, 0.5);
+        position: absolute;
+        inset: 0;
+        z-index: 99;
+    }
+    #banner .banner_cont{
+        position: relative;
+        z-index: 999;
+    }
+    #banner .banner_cont h1 {
+        font-size: 36px;        
+    }
+    #banner .iphone {
+        top: 50px;
+        z-index: 999;
+    }
+    #banner .iphone img{
+        height: 250px;
+    }
+    #start .start_cont.right_cont {
+        margin-top: 0;
+    }
+    #start .start_cont h1,#look .look_title h4 {
+        font-size: 30px;
+    }
+    #look .look_cont {
+        margin-top: 25px;
+    }
+    #look .look_cont .look_item h5 {
+        margin-top: 40px;
+    }
+    #morepower .power_cont .power_item h4 {
+        font-size: 24px;
+    }
+    #sell {
+        padding-top: 70px;        
+    }
+    #sell .sell_cont{
+        background-color: #fff;
+        margin-top: 30px;
+        -webkit-box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+        box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+    #banner::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: hsla(0, 0%, 0%, 0.5);
+        position: absolute;
+        inset: 0;
+        z-index: 99;
+    }
+    #banner .banner_cont{
+        position: relative;
+        z-index: 999;
+    }
+    #banner .iphone {
+        top: 50px;
+        z-index: 999;
+    }
+    #banner .iphone img{
+        height: 250px;
+    }
+    #morepower .power_cont .power_item h4 {
+        font-size: 32px;
+    }
+    #sell {
+        padding-top: 70px;        
+    }
+    #sell .sell_cont{
+        background-color: #fff;
+        margin-top: 30px;
+        -webkit-box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+        box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+    }
+    #start .start_cont.right_cont {
+        margin-top: 0;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991.98px){
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+    #banner::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: hsla(0, 0%, 0%, 0.5);
+        position: absolute;
+        inset: 0;
+        z-index: 99;
+    }
+    #banner .banner_cont{
+        position: relative;
+        z-index: 999;
+    }
+    #banner .iphone {
+        top: 50px;
+        z-index: 999;
+    }
+    #banner .iphone img{
+        height: 250px;
+    }
+    #start .start_cont.right_cont {
+        margin-top: 59px;
+    }
+    #look .look_cont {
+        margin-top: 35px;
+    }
+    #look .look_cont .look_item h5 {
+        margin-top: 30px;
+    }
+    #sell {
+        padding-top: 70px;        
+    }
+    #sell .sell_cont{
+        margin-top: 30px;
+        -webkit-box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+        box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px){
+    #banner .iphone {
+        position: absolute;
+        top: 40px;
+    }
+    #start .start_cont.right_cont {
+        margin-top: 58px;
+    }
+    #gallery .gallery_box.box5 h6 {
+        margin-bottom: -4px;
+    }
+    #morepower .power_cont .power_item h4 {
+        font-size: 42px;
+    }
+    #reasons .reason_title h4 {
+        font-size: 34px;
+    }
+    #sell .sell_cont{
+        margin-top: 30px;
+        -webkit-box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+        box-shadow: 0 0 20px rgba(104, 104, 110, 0.1);
+    }
+
+}
